@@ -1,7 +1,8 @@
 figure #photo {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 250px;
     cursor: zoom-in;
+
 }
 
 img{
@@ -11,7 +12,7 @@ img{
 
 #photo {
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 30%;
     box-shadow: 0px 0px 10px 0px #dbc2a4;
 }
 
@@ -19,16 +20,10 @@ figure {
     margin: 0px 10px;
 }
 
-#logo-1,#logo-2,#logo-3 {
+.logo {
     width: 40px;
     height: 40px;
 }
-#logo-1 :hover {
-    opacity: 0.7;
-}
-#logo-2 :hover {
-    opacity: 0.7;
-}
-#logo-3 :hover {
+.logo:hover {
     opacity: 0.7;
 }

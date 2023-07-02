@@ -1,22 +1,62 @@
+/* Police d'écriture */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 h1,h2,h3,h4 {
     font-family: "Lato", serif;
 }
+
 @font-face {
     font-family: "raleway";
     src: url(./font/Raleway-Regular.ttf) format('truetype');
     src: url(./font/Raleway-Regular.woff) ;
 }
+
 @font-face {
     font-family: "raleway"; font-weight: bold;
     src: url(./font/Raleway-Bold.ttf) format('truetype');
     src: url(./font/Raleway-Bold.woff);
 }
+
 @font-face {
     font-family: "raleway"; font-style: italic;
     src: url(./font/Raleway-Italic.ttf) format('truetype');
     src: url(./font/Raleway-Italic.woff);
 }
+
+/* Personnalisation des section du CV */
+body {
+    max-width: 1160px;
+    margin: auto;
+    display: grid;
+}
+
+main{
+    display: grid;
+    grid-template: 1fr 10fr 80px / repeat(3,1fr);
+}
+
+footer{
+    color: white;
+    background-color: #782221;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+h3{
+    background-color: #dbc2a4;
+    color: black;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
 p,ul, address {
     font-family: "raleway", serif;
 }
@@ -26,16 +66,12 @@ a{
     color: white;
     font-style: italic;
 }
+
 a:hover{
     text-decoration: underline;
 }
 
-body {
-    max-width: 1160px;
-    margin: auto;
-    display: grid;
-}
-
+/* Personalisation des sous-parties du CV */
 #name {
     color: white;
     background-color: #782221;
@@ -64,10 +100,20 @@ body {
     padding-right: 70px;
 }
 
+#about{
+    padding-left: 20px;
+    text-indent: 30px;
+    text-align: justify;
+}
+
 #work{
     grid-column: 2/span2;
     padding: 20px;
     border-right: 1px solid #2c1d27;
+}
+
+#work h3:hover {
+    border-left: 8px solid #782221;
 }
 
 #link {
@@ -76,43 +122,4 @@ body {
     justify-content: center;
     align-items: center;
     grid-column: 1/span3;
-
-}
-
-footer{
-    color: white;
-    background-color: #782221;
-    display: flex;
-    justify-content:center;
-    align-items: center
-}
-main{
-    display: grid;
-    grid-template: 1fr 10fr 80px / repeat(3,1fr);
-}
-footer{
-    height: 30px;
-    padding-bottom: 10px;
-}
-
-h1{
-    font-size: 3em;
-    font-weight: lighter;
-    margin-bottom: 0px;
-}
-h3{
-    background-color: #dbc2a4;
-    color: black;
-    padding: 5px 20px;
-    font-weight: bold;
-}
-
-#about{
-    padding-left: 20px;
-    text-indent: 30px;
-    text-align: justify;
-}
-
-#work h3:hover {
-    border-left: 8px solid #782221;
 }
