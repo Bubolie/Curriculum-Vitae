@@ -36,7 +36,7 @@ main{
 
 footer{
     color: white;
-    background-color: #782221;
+    background-color: #47003a;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -51,7 +51,7 @@ h1{
 }
 
 h3{
-    background-color: #dbc2a4;
+    background-color: #fbe6cd;
     color: black;
     padding: 5px 20px;
     font-weight: bold;
@@ -74,7 +74,7 @@ a:hover{
 /* Personalisation des sous-parties du CV */
 #name {
     color: white;
-    background-color: #782221;
+    background-color: #47003a;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ a:hover{
 
 #contact {
     color: white;
-    background-color: #2c1d27;
+    background-color: #2c001d;
     padding: 0 50px;
     display: flex;
     flex-direction: row;
@@ -94,7 +94,7 @@ a:hover{
 
 #myself{
     color: white;
-    background-color: #782221;
+    background-color: #47003a;
     display: flex;
     flex-direction: column;
     padding-right: 70px;
@@ -109,16 +109,16 @@ a:hover{
 #work{
     grid-column: 2/span2;
     padding: 20px;
-    border-right: 1px solid #2c1d27;
+    border-right: 1px solid #47003a;
 }
 
 #work h3:hover {
-    border-left: 8px solid #782221;
+    border-left: 8px solid #47003a;
 }
 
 #link {
     display: flex;
-    background-color: #782221;
+    background-color: #47003a;
     justify-content: center;
     align-items: center;
     grid-column: 1/span3;

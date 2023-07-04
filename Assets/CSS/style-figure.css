@@ -23,6 +23,7 @@ figure {
 .logo {
     width: 40px;
     height: 40px;
+    background-color: white;
 }
 .logo:hover {
     opacity: 0.7;
