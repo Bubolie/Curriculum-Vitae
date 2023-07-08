@@ -83,7 +83,7 @@ a:hover{
 
 #contact {
     color: white;
-    background-color: #2c001d;
+    background-color: #2c0003;
     padding: 0 50px;
     display: flex;
     flex-direction: row;
@@ -116,7 +116,7 @@ a:hover{
     border-left: 8px solid #47003a;
 }
 
-#link {
+.link {
     display: flex;
     background-color: #47003a;
     justify-content: center;
